@@ -7,4 +7,6 @@ RUN mkdir -p /home/docker/
 
 COPY /NodeJS /home/docker/
 
+EXPOSE 3000
+
 CMD [ "node", "/home/docker/server.js"]
