@@ -5,6 +5,6 @@ ENV MONGO_DB_USERNAME=admin  \
 
 RUN mkdir -p /home/docker/
 
-COPY /apps/NodeJS /home/docker/
+COPY /NodeJS /home/docker/
 
 CMD [ "node", "/home/docker/server.js"]
